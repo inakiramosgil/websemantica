@@ -1,0 +1,74 @@
+<!--
+   Nombre: Jose Ignacio Ramos Gil
+   Fecha:01/12/2023
+   Modulo: Lenguaje de Marcas.
+   UD2
+   Tarea: LMSG02 - Tarea evaluativa 01.2. desarrollar el sitio web diseñado en la primera tarea de evaluación..
+   Autoevaluación: https://docs.google.com/document/d/17iam-AcaunfK1KjGJ4Y2wZ3cYLJSbip9CJCP7jeSmaM/edit?usp=sharing
+   Descripción del programa: Sitio Web que muestra una página web sobre turismo
+ */
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo</title>
+    <!-- Enlace a estilos comunes -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <!-- Titulo principal de la página en la cabecera -->
+    <header>
+        <h1>Bienvenido a Nuestro Sitio de Turismo</h1>
+
+    </header>
+    <!-- Menu de navegación -->
+    <nav class="container">
+
+        <a href="index.html">Inicio</a>
+        <a href="destinos.html">Destinos</a>
+        <a href="ofertas_destacadas.html">Ofertas destacadas</a>
+        <a href="noticias.html">Noticias</a>
+        <a href="contacto.html">Contactar</a>
+
+    </nav>
+    <!-- Sección con dos articulos que sirve de presentación de la página -->
+    <section class="destinos">
+
+        <article class="destino">
+            <img src="img/turismo.jpeg" alt="Turismo">
+            <h2>turismo</h2>
+            <p>Decubre sitios increibles</p>
+        </article>
+
+        <article class="destino">
+
+            <h2>DESTINOS</h2>
+            <h3 class="borde">COSTAS</h3>
+            <h3 class="borde">NATURALEZA</h3>
+            <h3 class="borde">CRUCEROS</h3>
+        </article>
+
+    </section>
+
+    <h3 style="text-align: center;">Mapa del sitio</h3>
+    <!-- Mapa del sitio -->
+    <div id="caja-mapa">
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.4568477884054!2d-2.019468623477503!3d43.30469507490106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51b0708baa02bb%3A0x4b55a087d653821b!2sCebanc!5e0!3m2!1ses!2ses!4v1683098057548!5m2!1ses!2ses"
+            width="335" height="190" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2023 Descubre Nuevos Destinos</p>
+    </footer>
+
+</body>
+
+</html>
